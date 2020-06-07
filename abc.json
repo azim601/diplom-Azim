@@ -1,0 +1,8 @@
+{
+  "cherry": { "quantity": 1, "price": 300, "label": "Cherry" },
+  "garnet": { "quantity": 1, "price": 150, "label": "Garnet" },
+  "lemon": { "quantity": 1, "price": 50, "label": "Lemon" },
+  "lime": { "quantity": 1, "price": 250, "label": "Lime" },
+  "mandarin": { "quantity": 1, "price": 450, "label": "Apple" },
+  "orange": { "quantity": 1, "price": 150, "label": "Orange" }
+}

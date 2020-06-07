@@ -1,0 +1,34 @@
+.Tutti {
+  width: 40px;
+  height: 50px;
+  box-sizing: border-box;
+  margin-top: -20px;
+
+  background-repeat: no-repeat;
+}
+.cherry {
+  background-image: url(../../../../assets/cherry.svg);
+}
+.garnet {
+  background-image: url(../../../../assets/garnet.svg);
+}
+.lemon {
+  background-image: url(../../../../assets/lemon.svg);
+}
+.lime {
+  background-image: url(../../../../assets/lime.svg);
+}
+.mandarin {
+  background-image: url(../../../../assets/mandarin.svg);
+}
+.orange {
+  background-image: url(../../../../assets/orange.svg);
+}
+
+@media (min-width: 900px) {
+  .Tutti {
+    width: 50px;
+    height: 62px;
+    margin-top: -24px;
+  }
+}

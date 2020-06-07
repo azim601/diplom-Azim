@@ -1,0 +1,11 @@
+.TuttiControls {
+  border: 3px solid #4A8209;
+  background-color: #4A8209;
+
+  padding: 1rem 2rem;
+  margin: 0 .5rem;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
