@@ -17,7 +17,7 @@ export default ({ canOrder, ingredients, startOrder }) => {
     <div className={classes.TuttiControls}>
       {controlsOutput}
       <Button click={startOrder} enabled={canOrder}>
-        Order.
+        Order
       </Button>
     </div>
   );
