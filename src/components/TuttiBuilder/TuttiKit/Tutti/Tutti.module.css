@@ -6,23 +6,26 @@
 
   background-repeat: no-repeat;
 }
-.cherry {
-  background-image: url(../../../../assets/cherry.svg);
+.Banana {
+  background-image: url(../../../../assets/banana.png);
 }
-.garnet {
-  background-image: url(../../../../assets/garnet.svg);
+.Pomegranate {
+  background-image: url(../../../../assets/pomegranate.png);
 }
-.lemon {
-  background-image: url(../../../../assets/lemon.svg);
+.Grapes {
+  background-image: url(../../../../assets/grapes.png);
 }
-.lime {
-  background-image: url(../../../../assets/lime.svg);
+.Orange {
+  background-image: url(../../../../assets/orange.png);
 }
-.mandarin {
-  background-image: url(../../../../assets/mandarin.svg);
+.Mango {
+  background-image: url(../../../../assets/mango.png);
 }
-.orange {
-  background-image: url(../../../../assets/orange.svg);
+.Pineaplle {
+  background-image: url(../../../../assets/pineapple.png);
+}
+.Pear {
+  background-image: url(../../../../assets/pear.png);
 }
 
 @media (min-width: 900px) {
