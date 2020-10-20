@@ -1,6 +1,6 @@
-.Spinner,
-.Spinner:before,
-.Spinner:after {
+.Tutti,
+.Tutti:before,
+.Tutti:after {
   border-radius: 50%;
   width: 2.5em;
   height: 2.5em;
@@ -9,8 +9,8 @@
   -webkit-animation: load7 1.8s infinite ease-in-out;
   animation: load7 1.8s infinite ease-in-out;
 }
-.Spinner {
-  color: #4A8209;
+.Tutti {
+  color: #49f38a;
   font-size: 10px;
   margin: 80px auto;
   position: relative;
@@ -21,18 +21,18 @@
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
 }
-.Spinner:before,
-.Spinner:after {
-  content: "";
+.Tutti:before,
+.Tutti:after {
+  content: '';
   position: absolute;
   top: 0;
 }
-.Spinner:before {
+.Tutti:before {
   left: -3.5em;
   -webkit-animation-delay: -0.32s;
   animation-delay: -0.32s;
 }
-.Spinner:after {
+.Tutti:after {
   left: 3.5em;
 }
 @-webkit-keyframes load7 {
