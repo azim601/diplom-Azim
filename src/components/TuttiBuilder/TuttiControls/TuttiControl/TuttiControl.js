@@ -7,7 +7,7 @@ export default ({ label, ingredient, disabled }) => {
   const dispatch = useDispatch();
 
   return (
-    <div className={classes. TuttiControl}>
+    <div className={classes.TuttiControl}>
       <button
         className={classes.less}
         onClick={() => remove(dispatch, ingredient)}

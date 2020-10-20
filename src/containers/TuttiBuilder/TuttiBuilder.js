@@ -5,7 +5,7 @@ import axios from "../../axios";
 import withAxios from "../../hoc/withAxios/withAxios";
 import { load } from "../../store/actions/builder";
 import TuttiKit from "../../components/TuttiBuilder/TuttiKit/TuttiKit";
-import  TuttiControls from "../../components/TuttiBuilder/TuttiControls/TuttiControls";
+import TuttiControls from "../../components/TuttiBuilder/TuttiControls/TuttiControls";
 import Modal from "../../components/UI/Modal/Modal";
 import OrderSummary from "../../components/TuttiBuilder/OrderSummary/OrderSummary";
 import Spinner from "../../components/UI/Spinner/Spinner";
@@ -39,8 +39,8 @@ export default withAxios(() => {
 
     output = (
       <>
-        < TuttiKit price={price} ingredients={ingredients} />
-        < TuttiControls
+        <TuttiKit price={price} ingredients={ingredients} />
+        <TuttiControls
           startOrder={startOrder}
           canOrder={canOrder}
           ingredients={ingredients}
@@ -58,8 +58,8 @@ export default withAxios(() => {
   }
 
   return (
-    <div className={classes. TuttiBuilder}>
-      <h1> Tutti-Frutti</h1>
+    <div className={classes.TuttiBuilder}>
+      <h1>Tutti builder</h1>
       {output}
     </div>
   );
