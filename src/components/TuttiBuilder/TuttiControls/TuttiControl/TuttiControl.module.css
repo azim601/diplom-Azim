@@ -5,15 +5,15 @@
 .TuttiControl .label {
   color: white;
   font-family: 'Kalam', cursive;
-  font-size: 1rem;
-  padding:.2rem ;
+  font-size: 0.5rem;
+  padding: .2rem ;
 }
 .TuttiControl button {
   width: 30px;
   height: 30px;
   border: none;
   background-color: white;
-  color: #4A8209;
+  color: springgreen;
   font-weight: bold;
   border-radius: 100%;
   cursor: pointer;
@@ -27,6 +27,6 @@
 
 @media (min-width: 500px) {
   .TuttiControl .label {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }

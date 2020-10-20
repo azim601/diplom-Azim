@@ -13,12 +13,12 @@
 .Order .price {
   font-weight: bold;
   font-size: 2rem;
-  color: #4A8209;
+  color: springgreen;
   font-family: 'Kalam', cursive;
   margin-bottom: 0.5em;
 }
 .Order .ingredient {
-  border: 1px solid rgb(122, 177, 59);
+  border: 1px solid springgreen;
   border-radius: 0.3em;
   padding: 0.3em;
   display: inline-block;
