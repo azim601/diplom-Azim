@@ -1,34 +1,60 @@
 .TuttiKit {
-  padding: 0 .5rem;
-  width: 100%;
+  padding: 0 0.5rem;
 }
+
 .TuttiKit .bento {
-  padding: 1rem;
-  padding-top: 2rem;
-  margin: 0 auto;
-  
-  background-color: rgb(173, 171, 171);
-  width: 100%;
-  min-height: 300px;
-
   display: flex;
-  flex-flow: row wrap;
-  align-content: flex-start;
+  flex-direction: column;
   justify-content: center;
+  flex-flow: wrap;
+  align-items: center;
 
-  overflow: hidden;
+  background-image: url(../../../assets/basket.png);
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+  margin: 0 auto;
+  padding-bottom: 0;
 }
+
 .TuttiKit .price {
-  font-size: 2.2rem;
-  text-align: center;
-  color: SpringGreen;
-
-  font-family: 'Kalam', cursive;
+  font-size: 4rem;
   font-weight: bold;
+  text-align: center;
+  color: #397834;
+  font-family: "Tangerine", cursive;
 }
 
-@media (min-width: 500px) {
-  .TuttiKit {
-    width: 495px;
+.TuttiKit .flowerBento {
+  position: relative;
+  width: 220px;
+  height: 140px;
+  border: 1px solid transparent;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 30%;
+  overflow: hidden;
+  background-color: transparent;
+  margin-bottom: 59px;
+  margin-left: 65px;
+}
+
+@media (max-width: 700px) {
+  .TuttiKit .bento {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: wrap;
+    align-items: center;
+
+    background-image: url(../../../assets/basket.png);
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+
+    margin: 0 auto;
   }
 }
