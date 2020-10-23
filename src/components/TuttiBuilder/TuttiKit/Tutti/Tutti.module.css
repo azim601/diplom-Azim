@@ -25,11 +25,13 @@
   background-image: url(../../../../assets/mango.png);
   height: 60px;
 }
-.pineaplle {
+.pineapple {
   background-image: url(../../../../assets/pineapple.png);
+  height: 160px;
 }
 .pear {
   background-image: url(../../../../assets/pear.png);
+  height: 90px;
 }
 
 @media (min-width: 900px) {
