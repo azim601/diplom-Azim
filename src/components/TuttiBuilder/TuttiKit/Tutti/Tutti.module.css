@@ -1,25 +1,29 @@
-.Ingredient {
+.Tutti {
   width: 100%;
   height: 100%;
-  box-sizing: border-box;
   margin-top: -20px;
 
   background-repeat: no-repeat;
 }
-.Banana {
+.banana {
   background-image: url(../../../../assets/banana.png);
+  height: 100px;
 }
 .pomegranate {
   background-image: url(../../../../assets/pomegranate.png);
+  height: 70px;
 }
 .grapes {
   background-image: url(../../../../assets/grapes.png);
+  height: 100px;
 }
 .orange {
   background-image: url(../../../../assets/orange.png);
+  height: 80px;
 }
 .mango {
   background-image: url(../../../../assets/mango.png);
+  height: 60px;
 }
 .pineaplle {
   background-image: url(../../../../assets/pineapple.png);
@@ -29,9 +33,8 @@
 }
 
 @media (min-width: 900px) {
-  .Ingredient {
-    width: 50px;
-    height: 62px;
-    margin-top: -24px;
+  .Tutti {
+    background-size: cover;
+    width: 80px;
   }
 }
