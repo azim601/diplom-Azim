@@ -1,5 +1,5 @@
 import React from "react";
-import  Tutti from "./Tutti/Tutti";
+import Ingredient from "./Ingredient/Ingredient";
 import classes from "./TuttiKit.module.css";
 
 export default ({ price, ingredients }) => {
@@ -7,7 +7,7 @@ export default ({ price, ingredients }) => {
 
   Object.keys(ingredients).forEach((ingredient) => {
     for (let i = 0; i < ingredients[ingredient].quantity; i++) {
-      ingredientsOutput.push(<Tutti key={ingredient + i} type={ingredient} />);
+      ingredientsOutput.push(<Ingredient key={ingredient + i} type={ingredient} />);
     }
   });
 
